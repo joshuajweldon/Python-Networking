@@ -25,18 +25,18 @@ Upon finishing this project, students should:
 Get started:
 
 1. Fork and Clone this repo
-2. Read, understand, and play with the existing server.py and client.py files. 
-3. On paper, imagine a simple 2-player turn-based game (one that can be shown in ascii is preferred.)
-2. Create player1.py and player2.py files using server.py and client.py as a blueprint.
+2. Read, understand, and play with the existing `server.py` and `client.py` files. 
+3. On paper, imagine a simple 2-player turn-based game (one that can be shown in ASCII is preferred.)
+2. Create `player1.py` and `player2.py` files using `server.py` and `client.py` as a blueprint.
 
 #### Step 2 - Read, Understand, and Play
 1. Get with a partner, label yourselves as either client or server.
-2. The person labeled server will run their program first (`python server.py <port>` NOTE: you may choose any integer for your port as long as its not being used by another service, I find 8080 works fine)
+2. The person labeled server will run their program first (`python server.py <port>` NOTE: you may choose any integer for your port as long as it's not being used by another service, I find 8080 works fine)
 3. The person labeled client will run their program next (`python client.py <server IP> <port>` NOTE: if you are on the same local network, put in the server’s local IP address)
 4.  Follow the instruction on the screen, to send a single message to each other.
 
 ##### Sockets
-For simplicity, lets just imagine a socket as a house (IP Address) and door (port). There are many doors for a house, but we are going to use a particular door for each particular task. Car go through a garage door, and guest arrive at the front door. For networking, website servers (HTTP) use port 80 and file transfer services (FTP) use port 21. There are ports for all different kinds of server applications, from email servers to database servers. Its a good way for computers to connect to the right applications and prevent confusion, for you wouldn't want a guest to arrive and knock at your bedroom window.
+For simplicity, let's just imagine a socket as a house (IP Address) and door (port). There are many doors for a house, but we are going to use a particular door for each particular task. Car go through a garage door, and guest arrive at the front door. For networking, website servers (HTTP) use port 80 and file transfer services (FTP) use port 21. There are ports for all different kinds of server applications, from email servers to database servers. It's a good way for computers to connect to the right applications and prevent confusion, for you wouldn't want a guest to arrive and knock at your bedroom window.
 
 ##### server.py
 All servers do basically the same thing, `bind()`, `listen()`, and `accept()` with a socket.
@@ -46,7 +46,7 @@ In order to prepare itself, a server application needs to `bind()` to the comput
 >Trace the `server.py` source code and see if you can find the `bind()`, `listen()`, and `accept()` methods. Each method should be using the socket variable. 
 
 ##### client.py
-The clients job is much easier. If you know the address and port you wish to connect to, you just need to create a socket with such information, and `connect()` to it.
+The client's job is much easier. If you know the address and port you wish to connect to, you just need to create a socket with such information, and `connect()` to it.
 
 > Trace the `client.py` source code and see if you can locate the `connect()` method.
 
@@ -81,7 +81,7 @@ Create the `player1.py` and `player2.py`. Let `player1.py` be the server and `pl
 > Don’t forget to `close()` before you exit the application.
 
 #### Stretch
-If you are happy with you game, can you create a 3rd player? How would you do it?
+If you are happy with your game, can you create a 3rd player? How would you do it?
 
 ### Resources
 * [Python: sockets](https://docs.python.org/2/library/socket.html)
