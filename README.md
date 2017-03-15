@@ -3,7 +3,7 @@
 Networking is a powerful tool, and with social gaming on the rise, it is important to learn the basics of networking. Whether you are playing clash-of-clans or a sending a snapchat, networking is deeply rooted in today's applications. 
 
 
-<p align="center"><img src="" width="40%" height="40%"></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/JoshuaJWeldon/Python-Networking/master/ASCII.png" width="40%" height="40%"></img></p>
 
 ###Objective
 Create a simple ASCII game you can play online with your friends using some basic networking in Python!!!
