@@ -1,4 +1,4 @@
-#Python-Networking
+# Python-Networking
 
 Networking is a powerful tool, and with social gaming on the rise, it is important to learn the basics of networking. Whether you are playing clash-of-clans or a sending a snapchat, networking is deeply rooted in today's applications. 
 
